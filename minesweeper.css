@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Inconsolata', monospace;
 }
 
 body {
@@ -57,4 +57,23 @@ div.hidden:hover {
 
 div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+}
+
+#difficulty {
+  line-height: 30px;
+  font-size: 20px;
+  padding: 0px 40px;
+  margin: 20px;
+  display: flex;
+}
+
+#slider {
+  height: 100%;
+  margin: auto 20px;
+}
+
+#try-again {
+  font-size: 20px;
+  padding: 10px 40px;
+  margin: 20px;
 }
